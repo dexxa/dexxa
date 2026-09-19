@@ -15,7 +15,6 @@
 <!-- Galaga shooting contribution grid -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dexxa/dexxa/output/galaga-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dexxa/dexxa/output/galaga-contribution-graph-light.svg" />
   <img alt="Galaga contribution graph" src="https://raw.githubusercontent.com/dexxa/dexxa/output/galaga-contribution-graph.svg" />
 </picture>
 
