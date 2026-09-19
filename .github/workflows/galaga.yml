@@ -1,4 +1,4 @@
-name: generate-pacman
+name: generate-galaga
 
 on:
   schedule:
@@ -16,11 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Pacman contribution graph
+      - name: Generate Galaga contribution graph
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          game: pacman
+          game: galaga
           gameTheme: github
 
       - uses: crazy-max/ghaction-github-pages@v4
